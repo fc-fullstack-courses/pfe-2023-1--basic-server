@@ -1,0 +1,6 @@
+POST https://youtube.com/registration HTTP/1.1
+Content-type: application/json
+Authorization: Bearer asjdjjr342323u023.393he239h98d9h8d98d.239rh233h9
+Header3: value3
+
+"{"login": "user", "password" : "12345admin"}"
