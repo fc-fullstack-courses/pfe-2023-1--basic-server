@@ -2,7 +2,10 @@
 // import User from './User.js';
 
 // імпорт за замовчанням CommonJS (CJS)
-const User = require('./User.js');
+const User = require('./User');
+
+const test = require('./src');
+console.log(test)
 
 // іменний імпорт ESmodules (ESM)
 // import { sum, subtract, multiply as mult } from './Math.js';

@@ -3,6 +3,8 @@ const sum = (...numbers) => numbers.reduce((acc, num) => acc + num);
 
 const subtract = (...numbers) => numbers.reduce((acc, num) => acc - num);
 
+console.log('Math');
+
 // іменний експорт ESmodules (ESM)
 // export {sum, subtract};
 // export const multiply = (...numbers) => numbers.reduce((acc, num) => acc * num);
